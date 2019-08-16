@@ -1,0 +1,121 @@
+  grouping mavenir-rcs-xxx-extensions {
+    leaf cms-0-ip-address1 {
+      type inet:ip-address;
+      reference "VNFD Parameter : CMS_0_IP_ADDRESS1"
+    }
+    leaf cpu-num {
+      type int32;
+      reference "VNFD Parameter : CPU_NUM"
+      default 4;
+    }
+    leaf dhcp-state {
+      type boolean;
+      reference "VNFD Parameter : DHCP_STATE"
+      default false;
+    }
+    leaf diamre-image-checksum {
+      type string;
+      reference "VNFD Parameter : DIAMRE_IMAGE_CHECKSUM"
+    }
+    leaf diamre-image-size {
+      type string;
+      reference "VNFD Parameter : DIAMRE_IMAGE_SIZE"
+    }
+    leaf diamre-sw-version {
+      type string;
+      reference "VNFD Parameter : DIAMRE_SW_VERSION"
+    }
+    leaf gen-image-min-disk-size {
+      type int32;
+      reference "VNFD Parameter : GEN_IMAGE_MIN_DISK_SIZE"
+      default 0;
+    }
+    leaf gtre-image-checksum {
+      type string;
+      reference "VNFD Parameter : GTRE_IMAGE_CHECKSUM"
+    }
+    leaf gtre-image-size {
+      type string;
+      reference "VNFD Parameter : GTRE_IMAGE_SIZE"
+    }
+    leaf gtre-sw-version {
+      type string;
+      reference "VNFD Parameter : GTRE_SW_VERSION"
+    }
+    leaf mem-size {
+      type string;
+      reference "VNFD Parameter : MEM_SIZE"
+    }
+    leaf mp-image-checksum {
+      type string;
+      reference "VNFD Parameter : MP_IMAGE_CHECKSUM"
+    }
+    leaf mp-image-size {
+      type string;
+      reference "VNFD Parameter : MP_IMAGE_SIZE"
+    }
+    leaf mp-sw-version {
+      type string;
+      reference "VNFD Parameter : MP_SW_VERSION"
+    }
+    leaf sc-image-checksum {
+      type string;
+      reference "VNFD Parameter : SC_IMAGE_CHECKSUM"
+    }
+    leaf sc-image-size {
+      type string;
+      reference "VNFD Parameter : SC_IMAGE_SIZE"
+    }
+    leaf sc-sw-version {
+      type string;
+      reference "VNFD Parameter : SC_SW_VERSION"
+    }
+    leaf sipre-image-checksum {
+      type string;
+      reference "VNFD Parameter : SIPRE_IMAGE_CHECKSUM"
+    }
+    leaf sipre-image-size {
+      type string;
+      reference "VNFD Parameter : SIPRE_IMAGE_SIZE"
+    }
+    leaf sipre-sw-version {
+      type string;
+      reference "VNFD Parameter : SIPRE_SW_VERSION"
+    }
+    leaf sm-image-checksum {
+      type string;
+      reference "VNFD Parameter : SM_IMAGE_CHECKSUM"
+    }
+    leaf sm-image-size {
+      type string;
+      reference "VNFD Parameter : SM_IMAGE_SIZE"
+    }
+    leaf sm-sw-version {
+      type string;
+      reference "VNFD Parameter : SM_SW_VERSION"
+    }
+    leaf upc-image-checksum {
+      type string;
+      reference "VNFD Parameter : UPC_IMAGE_CHECKSUM"
+    }
+    leaf upc-image-size {
+      type string;
+      reference "VNFD Parameter : UPC_IMAGE_SIZE"
+    }
+    leaf upc-sw-version {
+      type string;
+      reference "VNFD Parameter : UPC_SW_VERSION"
+    }
+    leaf vlb-image-checksum {
+      type string;
+      reference "VNFD Parameter : VLB_IMAGE_CHECKSUM"
+    }
+    leaf vlb-image-size {
+      type string;
+      reference "VNFD Parameter : VLB_IMAGE_SIZE"
+    }
+    leaf vlb-sw-version {
+      type string;
+      reference "VNFD Parameter : VLB_SW_VERSION"
+    }
+  }
